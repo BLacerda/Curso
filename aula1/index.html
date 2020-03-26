@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula de teste</title>
-    <link rel="stylesheet" href="cs.css.css">
-    <script type="text/javascript" src="js.js"></script>
+    <link rel="stylesheet" href="arquivoCss.css">
+    <script type="text/javascript" src="arquivoJS.js"></script>
 </head>
 <body>
-        <h1>teste1544</h1>
+    <h2> Cadastro Cliente</h2>
+    <div class="row">
+        <span>Nome:</span>
+        <input type="text" name="numero" placeholder= "Informe o Nome" id="nome" > 
+    </div>
+    <div class="row">
+        <span>Idade:</span>
+        <input type="number" name="numero" placeholder= "Informe a Idade" id="idade"> 
+    </div>
+    <div class="row">
+        <span>CPF:</span>
+        <input type="number" name="numero" placeholder="Informe o CPF" id="cpf"> 
+    </div>
+    <div class="row">
+        <span>RG:</span>
+        <input type="number" name="numero" placeholder="informe o seu RG" id="rg"> 
+    </div>
+    <div class="row">
+        <span>Data de Nascimento:</span>
+        <input type="text" class="form-control" placeholder="Ex.: dd/mm/aaaa" data-mask="00/00/0000" maxlength="10" autocomplete="off" id="nascimento"> 
+    </div>
+    <div>
+        <input type="button" value="submite" id="submite" onclick="salvar()">
+    </div>
 </body>
 </html>

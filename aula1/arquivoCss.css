@@ -1,0 +1,29 @@
+#nome {
+
+    width: 180px;
+    margin-left: 1px;
+}
+
+#idade {
+
+    width: 110px;
+    margin-left: 5px;
+}
+
+#cpf {
+
+    width: 150px;
+    margin-left: 12px;
+}
+
+
+#rg {
+
+    width: 150px;
+    margin-left: 18px;
+}
+
+#submite {
+
+    margin-top: 25px;
+}
